@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Backend Architecture Scalability Study"
+type: software
+version: 0.1.0
+date-released: 2026-08-03
+authors:
+  - family-names: "Yauri Santaria"
+    given-names: "Hugo Matias"
+    affiliation: "Universidad de Lima"
+repository-code: "https://github.com/HugoYauri/backend-architecture-scalability-study"
+license: MIT
+keywords:
+  - backend architecture
+  - distributed systems
+  - scalability
+  - load balancing
+  - microservices
+  - caching
+  - rate limiting
