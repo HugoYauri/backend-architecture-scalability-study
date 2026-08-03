@@ -1,0 +1,8 @@
+# This project's demos are written in Go and orchestrated with Docker
+# Compose, so there are no Python runtime dependencies for the core demos.
+# This file is kept for consistency with common reproducible-research
+# templates and for any future analysis/plotting scripts.
+#
+# Example (uncomment if you add analysis notebooks/scripts):
+# pandas>=2.0
+# matplotlib>=3.8
