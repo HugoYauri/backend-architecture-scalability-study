@@ -1,0 +1,12 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  app:
+    build: ./app
+    ports:
+      - "8081:8081"
+    depends_on:
+      - redis
