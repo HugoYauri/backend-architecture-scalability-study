@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.exe
+*.test
+*.out
+
+# Docker
+*.log
+
+# Data and results (tracked via README + .gitkeep only)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+results/figures/*
+!results/figures/.gitkeep
+results/metrics/*
+!results/metrics/.gitkeep
+
+# Env
+.env
